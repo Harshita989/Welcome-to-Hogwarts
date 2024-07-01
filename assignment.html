@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body>
+  <main class="banner">
+    <div class="card">
+      <h1>Registration Form</h1>
+      <h4> Please fill out the folloiwng details </h4>
+
+      <form class="form_container" action="">
+        <div class="inline_input-container">
+          <div class="input__container">
+            <label for="first_name">First Name</label>
+            <input id="first_name" class="input__text" type="text" placeholder="Harry" required />
+          </div>
+          <div class="input__container">
+            <label for="last_name">Last Name</label>
+            <input id="last_name" class="input__text" type="text" placeholder="Potter" required />
+          </div>
+        </div>
+        <div class="input__container">
+          <label for="first_name">Select Branch</label>
+          <select class="select">
+            <option value="1">B.Tech</option>
+            <option value="2">BCA</option>
+          </select>
+        </div>
+        <div class="input__container">
+          <label>Gender</label>
+          <div class="container_checkbox">
+            <input class="checkbox_radio" name="gender" type="radio" />
+            <label>Male</label>
+          </div>
+          <div class="container_checkbox">
+            <input class="checkbox_radio" name="gender" type="radio" />
+            <label>Female</label>
+          </div>
+          <div class="container_checkbox">
+            <input class="checkbox_radio" name="gender" type="radio" />
+            <label>Other</label>
+          </div>
+        </div>
+
+        <div class="input__container">
+          <label>Hobbies</label>
+          <div class="container_checkbox">
+            <input class="checkbox_radio" name="hobbies" type="checkbox" />
+            <label>Programming</label>
+          </div>
+          <div class="container_checkbox">
+            <input class="checkbox_radio" name="hobbies" type="checkbox" />
+            <label>Cricket</label>
+          </div>
+          <div class="container_checkbox">
+            <input class="checkbox_radio" name="hobbies" type="checkbox" />
+            <label>Football</label>
+          </div>
+          <div class="container_checkbox">
+            <input class="checkbox_radio" name="hobbies" type="checkbox" />
+            <label>Reading Novel</label>
+          </div>
+        </div>
+        <div class="input__container">
+          <label for="phone_number">Phone Number</label>
+          <input id="phone_number" class="input__text" type="text" placeholder="Your phone number" required />
+        </div>
+        <div class="input__container">
+          <label for="email">Email</label>
+          <input id="email" class="input__text" type="email" placeholder="example@gmail.com" required />
+        </div>
+        <div class="input__container">
+          <label for="password">Password</label>
+          <input id="password" class="input__text" type="password" placeholder="harry123" required />
+        </div>
+        <div class="input__container">
+          <label for="address">Address</label>
+          <textarea id="address" class="input__text" placeholder="Your address" minlength="5" required></textarea>
+        </div>
+
+        <div class="inline_input-container">
+          <button type="submit" class="btn btn-1 hover-filled-slide-down">
+            <span>Submit</span>
+          </button>
+          <button type="reset" class="btn btn-1 hover-filled-slide-down">
+            <span>Reset</span>
+          </button>
+        </div>
+      </form>
+    </div>
+  </main>
+</body>
+
+</html>

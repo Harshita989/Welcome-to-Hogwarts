@@ -1,0 +1,97 @@
+h1 {
+    text-align: center;
+    text-decoration: double;
+    color: #F8F0E5;
+    text-decoration-line: underline;
+    background-color: rgb(8, 156, 87);
+    font-size: 40px;
+    font-style: italic;
+
+}
+
+h4 {
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+
+.l {
+    height: 80px;
+    width: 80px;
+    cursor: pointer;
+    float: right;
+    /* margin-left: 50px; */
+}
+
+* {
+    /* background-color: #f4f4f6; */
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+p:hover {
+
+    color: rgb(185, 233, 240);
+    font-size: 22px;
+    text-shadow: 5px bisque;
+}
+
+div {
+    align-items: center;
+}
+
+div p {
+    /* background-color: whitesmoke; */
+    display: block;
+    font-size: 18px;
+    color: azure;
+}
+
+body {
+    background-color: #102C57;
+}
+
+button {
+    background-color: #1d169c;
+    color: rgb(196, 192, 207);
+    border-radius: 5px;
+    /* transition-delay: 1.5s; */
+    width: 60px;
+    height: 30px;
+}
+
+.btn:hover {
+    background-color: #500277;
+    color: rgb(196, 192, 207);
+    border-radius: 5px;
+    /* transition-delay: 1.5s; */
+    width: 70px;
+    height: 30px;
+}
+
+textarea {
+    background-image: linear-gradient(rgba(247, 226, 226, 0.5), rgba(219, 202, 202, 0.5)), url(img.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+}
+
+textarea:hover {
+    border-radius: 20px;
+
+
+}
+
+input {
+    background-color: rgb(248, 237, 239);
+}
+
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img.jpg);
+    position: sticky;
+}
+
+div {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(240, 215, 215, 0.75), url(img.jpg);
+
+    }
